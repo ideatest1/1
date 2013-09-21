@@ -1,0 +1,8 @@
+  public CommentNodeRenderer(@NotNull JTree tree, @NotNull Review review, @NotNull Project project) {
+    super(tree);
+    myReview = review;
+    myProject = project;
+    myPanel = new CommentRendererPanel();
+  }
+
+ans some more text
