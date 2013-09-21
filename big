@@ -15,8 +15,6 @@ class CommentNodeRenderer extends JBDefaultTreeCellRenderer {
   }
 
   @Override
-  public Component getTreeCellRendererComponent(JTree tree, Object value,
-                                                boolean sel, boolean expanded, boolean leaf, int row, boolean hasFocus) {
     if (value instanceof DefaultMutableTreeNode) {
       Object userObject = ((DefaultMutableTreeNode)value).getUserObject();
       if (userObject instanceof Comment) {
@@ -28,7 +26,7 @@ class CommentNodeRenderer extends JBDefaultTreeCellRenderer {
   }
 
   /**
-   * Finds the link which was clicked by user, or null if he didn't click on an action link.
+   * Founds the link which was clicked by user, or null if he didn't click on an action link.
    * dx and dy are relative coordinates on the renderer panel.
    */
   @Nullable
@@ -82,6 +80,11 @@ class CommentNodeRenderer extends JBDefaultTreeCellRenderer {
           LOG.warn(e);
         }
       }
+
+helloworld
+hello
+hello
+asdasfdasdfsdfsdf
 
       myIconLabel.setIcon(icon);
       myMessageLabel.setText(XmlStringUtil.wrapInHtml(comment.getMessage()));
