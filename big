@@ -1,8 +1,18 @@
   public CommentNodeRenderer(@NotNull JTree tree, @NotNull Review review, @NotNull Project project) {
     super(tree);
     myReview = review;
+some change in the middle
     myProject = project;
     myPanel = new CommentRendererPanel();
   }
 
 ans some more text
+
+and a lot more
+text
+at
+the
+end
+of
+the
+commit
